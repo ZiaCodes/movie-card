@@ -6,6 +6,8 @@ body {
   background-image:url(../backdrop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  Width: 1200px;
+  height: 100vh;
  }
 
 .card {

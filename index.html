@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 
-<body onload="checkCookie()">
+<body onload="checkCookie() myfunction ()">
+<div id="loader"></div>
     <div onclick="getLocation()" id="video" class="card">
         <div class="poster">
             <img src="poster.jpg" alt="">
@@ -69,11 +70,12 @@
     </div>
    
 
-
-
-
-
-
+<script>
+        var preloader = document.getElementById('loader');
+        function myFunction(){
+            preloader.style.display = 'none';     
+        }
+      </script>
 
 
 

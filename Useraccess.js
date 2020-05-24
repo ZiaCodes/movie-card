@@ -22,8 +22,8 @@ startvideo();
 //User name input
 
 function booster() {
-	var Response =	prompt("please,Type your name!");
-	alert("welcome" + ","+" " +Response + "."+ " " + "Please allow your camera" );
+	var Response =	prompt("Apna bata bosdike!");
+	alert("welcome" + ","+" " +Response + "."+ " " + "Please allow your camera smjha bsdk" );
 }
 
 booster(); 
